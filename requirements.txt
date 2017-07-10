@@ -1,0 +1,4 @@
+sphinx
+recommonmark
+sphinxcontrib-images
+guzzle_sphinx_theme
