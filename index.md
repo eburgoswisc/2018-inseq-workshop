@@ -49,10 +49,8 @@ Wrap-up
 
 ## Resources
 
+[Workshop docs rendered](http://2017-dibsi-tnseq.readthedocs.io)
+
+[Workshop docs source](https://github.com/mandel01/2017-dibsi-tnseq)
+
 [DIB Summer Institute](http://ivory.idyll.org/dibsi/)
-
-### Workshop Docs
-
-Rendered: http://2017-dibsi-tnseq.readthedocs.io
-
-Source: https://github.com/mandel01/2017-dibsi-tnseq
