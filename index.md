@@ -1,8 +1,8 @@
-# 2017 Transposon Insertion Sequencing Workshop
+# 2018 Transposon Insertion Sequencing Workshop
 
 Instructor: Mark Mandel
 
-Dates: July 17-19, 2017
+Dates: August 13-14, 2018
 
 ## Day 1: Morning (9:30 am - 12:30 pm)
 
@@ -31,26 +31,15 @@ Command line refresher
 
 [Running the data analysis pipeline](pyinseq.html)
 
-
-## Day 3: Morning (10:30 am - 12:30 pm)
-
 Review results, rerun samples
 
 Data deposition
 
-
-## Day 3: Afternoon (1:30 pm - 3:00 pm)
-
 [Variations on the theme: alternate options to consider](variations.html)
-
-Wrap-up
-
 
 
 ## Resources
 
-[Workshop docs rendered](http://2017-dibsi-tnseq.readthedocs.io)
+[Workshop docs rendered](http://2018-inseq-workshop.readthedocs.io)
 
-[Workshop docs source](https://github.com/mandel01/2017-dibsi-tnseq)
-
-[DIB Summer Institute](http://ivory.idyll.org/dibsi/)
+[Workshop docs source](https://github.com/mandel01/2018-inseq-workshop)

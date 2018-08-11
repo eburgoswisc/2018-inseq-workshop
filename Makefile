@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = 2017-dibsi-tnseq
+SPHINXPROJ    = 2018-inseq-workshop
 SOURCEDIR     = .
 BUILDDIR      = _build
 

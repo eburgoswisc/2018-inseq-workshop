@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# 2017-dibsi-tnseq documentation build configuration file, created by
-# sphinx-quickstart on Mon Jul 10 13:04:00 2017.
-#
 # This file is execfile()d with the current directory set to its
 # containing dir.
 #
@@ -31,8 +28,8 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-# extensions = []
-extensions = ['sphinxcontrib.images',]
+extensions = []
+# extensions = ['sphinxcontrib.images',]
 
 images_config = {'override_image_directive': True,}
 # images_config = {'override_image_directive': True, 'default_image_width'='50%'}
@@ -50,8 +47,8 @@ source_suffix = ['.rst', '.md']
 master_doc = 'index'
 
 # General information about the project.
-project = '2017-dibsi-tnseq'
-copyright = '2017, Mark Mandel'
+project = '2018-inseq-workshop'
+copyright = '2018, Mark Mandel'
 author = 'Mark Mandel'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -100,7 +97,7 @@ extensions.append("guzzle_sphinx_theme")
 # Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
     # Set the name of the project to appear in the sidebar
-    "project_nav_name": "2017-dibsi-tnseq",
+    "project_nav_name": "2018-inseq-workshop",
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -118,7 +115,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = '2017-dibsi-tnseqdoc'
+htmlhelp_basename = '2018-inseq-workshop'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -145,7 +142,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, '2017-dibsi-tnseq.tex', '2017-dibsi-tnseq Documentation',
+    (master_doc, '2018-inseq-workshop.tex', '2018-inseq-workshop Documentation',
      'Mark Mandel', 'manual'),
 ]
 
@@ -155,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, '2017-dibsi-tnseq', '2017-dibsi-tnseq Documentation',
+    (master_doc, '2018-inseq-workshop', '2018-inseq-workshop Documentation',
      [author], 1)
 ]
 
@@ -166,8 +163,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, '2017-dibsi-tnseq', '2017-dibsi-tnseq Documentation',
-     author, '2017-dibsi-tnseq', 'One line description of project.',
+    (master_doc, '2018-inseq-workshop', '2018-inseq-workshop Documentation',
+     author, '2018-inseq-workshop', 'One line description of project.',
      'Miscellaneous'),
 ]
 
