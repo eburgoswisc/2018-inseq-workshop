@@ -14,17 +14,18 @@ Typically transposons are delivered to recipient cells by conjugation or by tran
 <https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-015-1361-3>`__ adapted a phage-based transposition system to enable high efficiency tranposon delivery in *S. aureus*.
 
 
-Magic pools (2017)
+Magic pools (2018)
 ~~~~~~~~~~~~~~~~~~
 
 Instead of using rationale design to tweak the antibiotic resistance and promoter, you can select for constructs that work better. This can be tricky as the plasmid is a suicide plasmid, so how do you know which construct gave you the best results? `This approach, which they term "magic pools"
-<http://www.biorxiv.org/content/early/2017/07/03/158840>`__, seems to be an elegant way to tackle this issue.
+<https://msystems.asm.org/content/3/1/e00143-17>`__, seems to be an elegant way to tackle this issue.
 
 .. figure:: images/liu_2017_fig1.jpg
-   :scale: 20 %
-   :alt: Magic Pools
+    :scale: 30 %
+    :align: center
+    :alt: Magic Pools
 
-   Lui 2017
+Liu H, Price MN, Waters RJ, Ray J, Carlson HK, Lamson JS, Chakraborty R, Arkin AP, Deutschbauer AM. 2018. Magic pools: parallel assessment of transposon delivery vectors in bacteria. mSystems 3:e00143-17.
 
 
 Variations in library preparation
