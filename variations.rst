@@ -25,7 +25,7 @@ Instead of using rationale design to tweak the antibiotic resistance and promote
     :align: center
     :alt: Magic Pools
 
-Liu H, Price MN, Waters RJ, Ray J, Carlson HK, Lamson JS, Chakraborty R, Arkin AP, Deutschbauer AM. 2018. Magic pools: parallel assessment of transposon delivery vectors in bacteria. mSystems 3:e00143-17.
+    Liu H, Price MN, Waters RJ, Ray J, Carlson HK, Lamson JS, Chakraborty R, Arkin AP, Deutschbauer AM. 2018. Magic pools: parallel assessment of transposon delivery vectors in bacteria. mSystems 3:e00143-17.
 
 
 Variations in library preparation
