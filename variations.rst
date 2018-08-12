@@ -20,8 +20,11 @@ Magic pools (2017)
 Instead of using rationale design to tweak the antibiotic resistance and promoter, you can select for constructs that work better. This can be tricky as the plasmid is a suicide plasmid, so how do you know which construct gave you the best results? `This approach, which they term "magic pools"
 <http://www.biorxiv.org/content/early/2017/07/03/158840>`__, seems to be an elegant way to tackle this issue.
 
-.. thumbnail:: images/liu_2017_fig1.jpg
-   :width: 20%
+.. figure:: images/liu_2017_fig1.jpg
+   :scale: 20 %
+   :alt: Magic Pools
+
+   Lui 2017
 
 
 Variations in library preparation
