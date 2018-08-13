@@ -5,14 +5,20 @@ Transposon selection
 We are focusing on the MmeI-based INSeq method, so the key feature will be using a transposon that includes MmeI restriction recognition sites oriented correctly at the ends of each transposon. Any transposon that fulfills this function will work. Goodman & Gordon (and independently, van Opijnen & Camilli) recognized that the MmeI type IIs restriction enzyme recognizes a site that is similar to the terminal repeat of mariner (Himar) type transposases. Mutation of a single base pair in the tranpsoson end enables recognition by MmeI. However, MmeI does not cleave at this sequence. Instead, `MmeI cleaves 20 bp away
 <https://www.neb.com/products/r0637-mmei>`__, enabling capture of adjacent chromosomal sequence.
 
-.. thumbnail:: images/neb_mmei.jpg
-   :width: 20%
+.. figure:: images/neb_mmei.jpg
+    :scale: 30 %
+    :align: center
+    :alt: MmeI
 
 The pSAM base transposon was described by `Goodman et al. 2009
 <https://www.ncbi.nlm.nih.gov/pubmed/19748469>`__.
 
-.. thumbnail:: images/goodman_2009_figS1.jpg
-   :width: 20%
+.. figure:: images/goodman_2009_figS1.jpg
+    :scale: 30 %
+    :align: center
+    :alt: pSAM
+
+
 
 -----
 

@@ -6,16 +6,20 @@ Two groups simultaneously described the. One called it TraSH (transposon-site hy
 
 -----
 
-.. thumbnail:: images/badarinarayana_2001_fig1.jpg
-   :width: 20%
+.. figure:: images/badarinarayana_2001_fig1.jpg
+    :scale: 30 %
+    :align: center
+    :alt: Badarinarayana 2001
 
 `Badarinarayana V, Estep PW 3rd, Shendure J, Edwards J, Tavazoie S, Lam F, Church GM. Selection analyses of insertional mutants using subgenic-resolution arrays. Nat Biotechnol. 2001 Nov;19(11):1060-5. PubMed PMID: 11689852
 <https://www.ncbi.nlm.nih.gov/pubmed/11689852>`__
 
 -----
 
-.. thumbnail:: images/sassetti_2001_fig2.jpg
-   :width: 20%
+.. figure:: images/sassetti_2001_fig2.jpg
+    :scale: 30 %
+    :align: center
+    :alt: TraSH
 
 `Sassetti CM, Boyd DH, Rubin EJ. Comprehensive identification of conditionally essential genes in mycobacteria. Proc Natl Acad Sci U S A. 2001 Oct 23;98(22):12712-7. Epub 2001 Oct 16. PubMed PMID: 11606763; PubMed Central PMCID: PMC60119.
 <https://www.ncbi.nlm.nih.gov/pubmed/11606763>`__
