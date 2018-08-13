@@ -4,9 +4,12 @@
 
 ```
 cd Downloads/
+
 wget https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+
 chmod +x Anaconda3-5.2.0-Linux-x86_64.sh
-./Anaconda3-4.4.0-Linux-x86_64.sh
+
+./Anaconda3-5.2.0-Linux-x86_64.sh
 ```
 `yes` to license
 Default install location (hit `enter`)
@@ -15,7 +18,9 @@ Default install location (hit `enter`)
 
 ```
 cd ..
+
 source ~/.bashrc
+
 python
 ```
 
@@ -43,6 +48,7 @@ Install the latest version from GitHub:
 
 ```
 pip install --upgrade pip
+
 pip install git+git://github.com/mandel01/pyinseq
 ```
 
@@ -55,6 +61,7 @@ Make and enter the data directory
 
 ```
 mkdir data
+
 cd data
 ```
 
@@ -62,6 +69,7 @@ Download the sample data
 
 ```
 wget https://www.dropbox.com/s/icroinqkyev4bb3/pyinseq_example_files.tar.gz
+
 tar -zxvf pyinseq_example_files.tar.gz
 ```
 
@@ -78,8 +86,8 @@ Run a tiny dataset:
 
 ```
 cd
-pyinseq -i data/example01.fastq -s data/example01.txt -g data/ES114v2.gb -e example1
 
+pyinseq -i data/pyinseq_example_files/example01.fastq -s data/pyinseq_example_files/example01.txt -g data/pyinseq_example_files/ES114v2.gb -e example1
 ```
 
 
@@ -87,6 +95,7 @@ Run a larger dataset:
 
 ```
 cd
-pyinseq -i data/example02.fastq.gz -s data/example02.txt -g data/ES114v2.gb -e example2
+
+pyinseq -i data/pyinseq_example_files/example02.fastq.gz -s data/pyinseq_example_files/example02.txt -g data/pyinseq_example_files/ES114v2.gb -e example2
 
 ```
