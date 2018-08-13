@@ -67,8 +67,26 @@ tar -zxvf pyinseq_example_files.tar.gz
 
 ## Run pyinseq
 
+Check out the required arguments:
+
+```
+pyinseq
+```
+
+
+Run a tiny dataset:
+
 ```
 cd
 pyinseq -i data/example01.fastq -s data/example01.txt -g data/ES114v2.gb -e example1
+
+```
+
+
+Run a larger dataset:
+
+```
+cd
+pyinseq -i data/example02.fastq.gz -s data/example02.txt -g data/ES114v2.gb -e example2
 
 ```
