@@ -16,7 +16,7 @@ Command line intro/refresher. [Cheat sheet](https://github.com/mandel01/programm
 
 [Install the pyinseq pipeline](pyinseq.html)
 
-[Run the data analysis pipeline](pyinseq.html)
+[Run the data analysis pipeline](pyinseq.html#run-pyinseq)
 
 [Download your results](download.html)
 
@@ -30,12 +30,9 @@ Review results
 
 [Transposon selection and design](transposon.html)
 
-
-## Day 2: Afternoon (1:30 pm - 4:30 pm)
+[Variations on the theme: alternate options to consider](variations.html)
 
 Considerations for data deposition
-
-[Variations on the theme: alternate options to consider](variations.html)
 
 
 ## Resources
