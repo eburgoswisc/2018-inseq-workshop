@@ -38,6 +38,41 @@ If adding SSH keys for secure copy (SCP) to get files off the server at the end 
 
 [Logging in with SSH](https://iujetstream.atlassian.net/wiki/spaces/JWT/pages/17465502/Logging+in+with+SSH)
 
+### Generating SSH key-pair
+
+To log in from your terminal into the Atmosphere instance, you need to create SSH key-pair and add them to your Jetstream account.
+
+#### Mac OS
+
+1. Open terminal and run ```cd ~/.ssh```
+2. In that directory, use ```ls``` to check if you have a file named "id_rsa.pub"
+3. If you do, skip to [Add SSH key to Atmosphere](#adding-ssh-key-to-atmosphere). Otherwise, run ```ssh-keygen -t rsa``` to generate key-pair.
+4. Following prompt will show. If you wish to use the name **id_rsa**, press ```Enter```. However, if you have multiple keys for different hosts, you may write a specific **filename** to store your new **key**.
+
+    <pre><code>Generating public/private rsa key pair.
+    Enter file in which to save the key pair(/Users/emanuelburgos/.ssh/id_rsa): </pre></code>
+5. When prompt for passphrase, press ```Enter``` to leave empty. Press again for second vaidation
+    <pre><code>Enter passphrase (empty for no passphrase):</pre></code>
+6. Once key is created, use ```cat ``` to view file contents and copy the key including the ssh-rsa header and client address at the bottom.
+    <pre><code>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnER7CFJ
+    +gGzC1atde5QNos5IdgbFZa6jILA5xTLgiHt8kpNo5w9JFwkHgY4/BDVCn0rubYP
+    KXw8NiJhg+/4pjwXswol8sK+tye0QNonOY2ysd7YyI1S7Xhbrv
+    +s9Mq/QYZjkdtTOMbvSTQwvzTHgOPCIaAWtLT/0cn3AehksDfuFc0AjrxKHCUbtf
+    f9tZhJnKXpWZ0F6XFC0ufFcVmIii/PR7NlIoW6xoQAVxfccYflptY3KAHNs
+    +NLPJzYuD7JoqZvzG5k1TjlDGIDNhov+xF0aet
+    +A8hU41CWDvCWuRt3xYiwpsXv0dGDZbxvVQZ5C04S/Wj09FGsMw03LX33f9 
+    emanuelburgos@Emanuels-MBP.attlocal.net </pre></code>
+7. Finally, read [Adding SSH key to Atmosphere](#adding-ssh-key-to-atmosphere).
+
+### Adding SSH key to Atmosphere
+
+1. To add your ssh key into your **Atmosphere** account and instances, go to [Jetstream Cloud](https://use.jetstream-cloud.org)
+2. On the top left corner, click your username and go into **settings**.
+3. Scroll to the bottom until **Advanced**, press **show more**.
+4. In **SSH Configuration**, press ```+``` to add a new ssh key.
+5. Write prefered name (I suggest machine name), and in **Public Key**, paste the contents of the ssh public (*.pub*) key file.
+6. If you had an instance deployed, reboot it. Otherwise, every you deploy will have the ssh key in its configuration.
+
 
 ## Set up your instance
 
