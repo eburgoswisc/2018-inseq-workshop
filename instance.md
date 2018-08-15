@@ -53,15 +53,18 @@ To log in from your terminal into the Atmosphere instance, you need to create SS
     Enter file in which to save the key pair(/Users/emanuelburgos/.ssh/id_rsa): </pre></code>
 5. When prompt for passphrase, press ```Enter``` to leave empty. Press again for second vaidation
     <pre><code>Enter passphrase (empty for no passphrase):</pre></code>
-6. Once key is created, use ```cat ``` to view file contents and copy the key including the ssh-rsa header and client address at the bottom.
-    <pre><code>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnER7CFJ
+6. Once key is created, use ```cat id_rsa.pub``` (or whatever filename was used) to print the file's contents to the terminal. **Highlight** and **copy** the key including the **ssh-rsa** header and client address at the bottom.
+
+    ```
+    ssh-rsa AAAAB3NzaC1yc2EJBXEAADAQABAAABAQCnER7CFJ
     +gGzC1atde5QNos5IdgbFZa6jILA5xTLgiHt8kpNo5w9JFwkHgY4/BDVCn0rubYP
-    KXw8NiJhg+/4pjwXswol8sK+tye0QNonOY2ysd7YyI1S7Xhbrv
+    KXw8NiJhg+/4pjcjenjc762TCtc7tye0QNonOY2ysd7YyI1S7Xhbrv
     +s9Mq/QYZjkdtTOMbvSTQwvzTHgOPCIaAWtLT/0cn3AehksDfuFc0AjrxKHCUbtf
-    f9tZhJnKXpWZ0F6XFC0ufFcVmIii/PR7NlIoW6xoQAVxfccYflptY3KAHNs
+    f9tZhJnKXpWZ0HC6GStgeahsY78PR7NlIoW6xoQAVxfccYflptY3KAHNs
     +NLPJzYuD7JoqZvzG5k1TjlDGIDNhov+xF0aet
     +A8hU41CWDvCWuRt3xYiwpsXv0dGDZbxvVQZ5C04S/Wj09FGsMw03LX33f9 
-    emanuelburgos@Emanuels-MBP.attlocal.net </pre></code>
+    client@address.something
+    ```
 7. Finally, read [Adding SSH key to Atmosphere](#adding-ssh-key-to-atmosphere).
 
 ### Adding SSH key to Atmosphere
